@@ -1,0 +1,54 @@
+main#Sobre .banner{
+    width: 100%;
+    height: 100vh;
+    padding-top: 67px;
+}
+#Sobre .banner .max-width{
+    height: 100%;
+    max-width: 1366px;
+    background: url(/public/assets/banner-sobre.png) no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Sobre .SobreNos .max-width{
+    padding: 70px 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+.SobreNos .max-width div span{
+    font-weight: bold;
+    font-style: italic;
+}
+.SobreNos .max-width div p:first-child{
+    margin-bottom: 15px;
+}
+
+#Sobre .fotosSobre{
+    display: flex;
+}
+.fotosSobre img{
+    width: 50%;
+    height: 470px;
+}
+
+@media screen and (max-width: 768px) {
+    #Sobre .fotosSobre{
+        flex-direction: column;
+    }
+    .fotosSobre img{
+        width: 100%;
+        height: 480px;
+    }
+}
+
+@media screen and (max-width: 436px) {
+    .fotosSobre img{
+        width: 100%;
+        height: 370px;
+    }
+}
