@@ -1,24 +1,18 @@
 main#Sabores .banner{
-    width: 100%;
-    height: 100vh;
     padding-top: 67px;
 }
 #Sabores .banner .max-width{
-    height: 100%;
     max-width: 1366px;
     background: url(/public/assets/banner-sabores.jpg) no-repeat center center;
     background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
-main#Sabores .max-width{
+/*Fim do banner*/
+
+/*Sessão com os Cards*/
+#Sabores .sabores .max-width{
     padding: 100px 20px;
 }
-main#Sabores .max-width h2{
-    text-transform: uppercase;
-}
-main#Sabores .cardsSabores{
+#Sabores .cardsSabores{
     padding: 20px;
     display: grid;
     grid-template-columns: 250px 250px 250px;
@@ -58,6 +52,7 @@ main#Sabores .cardsSabores{
     font-size: 14px;
 }
 
+/*Medias*/
 @media screen and (max-width: 900px) {
     main#Sabores .cardsSabores{
         grid-template-columns: 250px 250px;
@@ -74,10 +69,8 @@ main#Sabores .cardsSabores{
         height: 70%;
     }
     .card .descricaoSabores{
-        width: 100%;
         height: 30%;
     }
-    
     .descricaoSabores span{
         font-size: 19px;
         line-height: 40px;
@@ -99,14 +92,12 @@ main#Sabores .cardsSabores{
         width: 100%;
     }
     .card .descricaoSabores{
-        width: 100%;
         height: 40%;
     }
     .cardsSabores .card{
         min-height: 380px;
         padding: 05px;
     }
-    
     .card .M5 img{
         width: 60%;
     }

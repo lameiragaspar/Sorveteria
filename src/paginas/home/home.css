@@ -1,33 +1,9 @@
-.home{
-    width: 100%;
-}
-.home main{.fotosSobre img{
-    width: 100%;
-    height: 370px;
-}
-    max-width: 1366px;
-    margin: 0 auto;
-}
-.home main .banner{
-    width: 100%;
-    height: 100vh;
-    padding-top: 70px;
+#Home .banner{
     background-color: #F9DB79;
 }
-.home .banner .max-width{
-    height: 100%;
+#Home .banner .max-width{
     background: url(/public/assets/banner-home.png) no-repeat center center;
     background-size: contain;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.banner .max-width h1{
-    text-transform: uppercase;
-    font-size: 90px;
-    color: #fff;
-    width: 100%;
-    text-shadow: 3px 3px 0px #00000081;
 }
 /*Sessões Sabores Sobre Eventos*/
 .sabores .tam-max,
@@ -72,10 +48,8 @@
     height: 450px;
 }
 
+/*Medias*/
 @media screen and (max-width: 768px) {
-    .banner .max-width h1{
-        font-size: 55px;
-    }
     .sabores .tam-max,
     .sobre .tam-max,
     .eventos .tam-max{
@@ -106,11 +80,7 @@
     }
 }
 
-
 @media screen and (max-width: 436px) {
-    .banner .max-width h1{
-        font-size: 50px;
-    }
     .sabores .tam-max img,
     .sobre .tam-max img,
     .eventos .tam-max img{
@@ -121,11 +91,5 @@
     .eventos .tam-max .descricao p{
         max-width: 300px;
         text-align: left;
-    }
-}
-
-@media screen and (max-width: 334px) {
-    .banner .max-width h1{
-        font-size: 30px;
     }
 }

@@ -4,9 +4,9 @@ import Footer from '../../Componentes/Rodape/footer.js';
 import './home.css'
 
 const Home =()=>(
-    <section className='home'>
+    <>
         <Topo />
-        <main>
+        <main id='Home'>
             <section className='banner'>
                 <div className='max-width'>
                     <h1>Sorvete Artesanal</h1>
@@ -59,6 +59,6 @@ const Home =()=>(
             </section>
         </main>
         <Footer />
-    </section>
+    </>
 )
 export default Home;

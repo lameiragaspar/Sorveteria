@@ -1,16 +1,15 @@
 import React from 'react';
 import Topo from '../../Componentes/topo/topo.js';
 import Footer from '../../Componentes/Rodape/footer.js';
-import '../home/home.css'
 import './sabores.css'
 
 const Sabores =()=>(
     <>
-        <Topo/>
+        <Topo />
         <main id='Sabores'>
             <section className='banner'>
                 <div className='max-width'>
-                    <h1>NOSSOS SABORES</h1>
+                    <h1>Nossos sabores</h1>
                 </div>
             </section>
 

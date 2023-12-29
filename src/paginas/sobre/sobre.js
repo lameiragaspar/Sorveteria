@@ -26,7 +26,7 @@ const Sobre =()=>(
                     </div>
                 </div>
             </section>
-            <section className='fotosSobre'>
+            <section className='fotosSobre '>
                 <img src='/assets/sobre-image.jpg'/>
                 <img src='/assets/sorveteria.jpg'/>
             </section>

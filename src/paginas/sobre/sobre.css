@@ -1,17 +1,13 @@
 main#Sobre .banner{
-    width: 100%;
-    height: 100vh;
     padding-top: 67px;
 }
 #Sobre .banner .max-width{
-    height: 100%;
     max-width: 1366px;
     background: url(/public/assets/banner-sobre.png) no-repeat center center;
     background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
+/*Fim do Banner*/
+
 #Sobre .SobreNos .max-width{
     padding: 70px 20px;
     height: 100%;
@@ -27,8 +23,9 @@ main#Sobre .banner{
 .SobreNos .max-width div p:first-child{
     margin-bottom: 15px;
 }
-
 #Sobre .fotosSobre{
+    max-width: 1366px;
+    margin: 0 auto;
     display: flex;
 }
 .fotosSobre img{
@@ -36,6 +33,7 @@ main#Sobre .banner{
     height: 470px;
 }
 
+/*Medias*/
 @media screen and (max-width: 768px) {
     #Sobre .fotosSobre{
         flex-direction: column;
@@ -48,7 +46,6 @@ main#Sobre .banner{
 
 @media screen and (max-width: 436px) {
     .fotosSobre img{
-        width: 100%;
         height: 370px;
     }
 }
